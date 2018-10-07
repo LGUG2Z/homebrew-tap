@@ -1,9 +1,9 @@
 class Rae < Formula
   desc "A docker-compose development environment orchestrator"
   homepage "https://github.com/LGUG2Z/rae"
-  url "https://github.com/LGUG2Z/rae/releases/download/v0.0.4/rae_0.0.4_darwin_amd64.tar.gz"
-  version "0.0.4"
-  sha256 "14223bdf44d7dfc2d1c718c4d5877bec7c002265822aa2dced1819534879bd14"
+  url "https://github.com/LGUG2Z/rae/releases/download/v0.0.5/rae_0.0.5_darwin_amd64.tar.gz"
+  version "0.0.5"
+  sha256 "24edf15837040329875e61a387d283bbc094aa7b6af6856da9648de62551f5e4"
   
   depends_on "docker"
 
