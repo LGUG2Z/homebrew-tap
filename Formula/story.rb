@@ -4,7 +4,7 @@ class Story < Formula
   homepage "https://github.com/LGUG2Z/story"
   url "https://github.com/LGUG2Z/story/releases/download/v0.0.1/story_0.0.1_darwin_amd64.tar.gz"
   version "0.0.1"
-  sha256 "1345718f444c0865516b175980e9bf621eb37efa39c3f3cb98fd4c35924d872e"
+  sha256 "88f388255129bab9c78df628d2456abe157191db7daf25bc4e363a2fbd340e41"
   
   depends_on "docker"
 
