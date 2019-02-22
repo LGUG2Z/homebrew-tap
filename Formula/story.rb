@@ -2,16 +2,16 @@
 class Story < Formula
   desc "A workflow tool for implementing stories across a node meta-repo"
   homepage "https://github.com/LGUG2Z/story"
-  url "https://github.com/LGUG2Z/story/releases/download/v0.0.2/rae_0.0.2_darwin_amd64.tar.gz"
-  version "0.0.2"
-  sha256 "0470e8880339dca247d8e722a49fe10020fd4d75d5c2ce0d57a5165075413db0"
+  url "https://github.com/LGUG2Z/story/releases/download/v0.0.3/rae_0.0.3_darwin_amd64.tar.gz"
+  version "0.0.3"
+  sha256 "6ca4dced63d72054f9b2ac847a98cd8cd1307b6fe7106434fb68dd5997de93c9"
   
   depends_on "docker"
 
   def install
     bin.install "story"
-    bash_completion.install "bash_autocomplete" => "rae"
-    zsh_completion.install "zsh_autocomplete" => "_rae"
+    bash_completion.install "bash_autocomplete" => "story"
+    zsh_completion.install "zsh_autocomplete" => "_story"
   end
 
   test do
