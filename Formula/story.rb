@@ -2,9 +2,9 @@
 class Story < Formula
   desc "A workflow tool for implementing stories across a node meta-repo"
   homepage "https://github.com/LGUG2Z/story"
-  url "https://github.com/LGUG2Z/story/releases/download/v0.0.3/rae_0.0.3_darwin_amd64.tar.gz"
-  version "0.0.3"
-  sha256 "6ca4dced63d72054f9b2ac847a98cd8cd1307b6fe7106434fb68dd5997de93c9"
+  url "https://github.com/LGUG2Z/story/releases/download/v0.0.1/story_0.0.1_darwin_amd64.tar.gz"
+  version "0.0.1"
+  sha256 "1345718f444c0865516b175980e9bf621eb37efa39c3f3cb98fd4c35924d872e"
   
   depends_on "docker"
 
