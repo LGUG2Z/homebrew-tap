@@ -2,9 +2,9 @@
 class Story < Formula
   desc "A workflow tool for implementing stories across a node meta-repo"
   homepage "https://github.com/LGUG2Z/story"
-  url "https://github.com/LGUG2Z/story/releases/download/v0.1.2/story_0.1.2_darwin_amd64.tar.gz"
-  version "0.1.2"
-  sha256 "341d132b8db5f296a2afeac8dd35621158ed179263c5115c23029a3efca1d6bd"
+  url "https://github.com/LGUG2Z/story/releases/download/v0.2.0/story_0.2.0_darwin_amd64.tar.gz"
+  version "0.2.0"
+  sha256 "f0c83ac6a1dd8271b8f78a72a741a8f51c444bf1bf9f4ad94ae3ea567430acd9"
 
   def install
     bin.install "story"
