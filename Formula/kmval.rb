@@ -2,14 +2,14 @@
 class Kmval < Formula
   desc "A Kustomize manifest validator"
   homepage "https://github.com/LGUG2Z/kmval"
-  version "0.0.3"
+  version "0.0.4"
 
   if OS.mac?
-    url "https://github.com/LGUG2Z/kmval/releases/download/v0.0.3/kmval_0.0.3_darwin_amd64.tar.gz"
-    sha256 "ad98df0eda3b5fc79ba2cfa262306bcbf83229dc37440726dc8d467f70c05888"
+    url "https://github.com/LGUG2Z/kmval/releases/download/v0.0.4/kmval_0.0.4_darwin_amd64.tar.gz"
+    sha256 "ef080ad7ead6c2757065353e55137002db4bed45cb886cba02292cfed2070449"
   elsif OS.linux?
-    url "https://github.com/LGUG2Z/kmval/releases/download/v0.0.3/kmval_0.0.3_linux_amd64.tar.gz"
-    sha256 "271ba0183afa2b13af8704fa0e5869be8bdae4bb5b07a633a6fe263ad3205eed"
+    url "https://github.com/LGUG2Z/kmval/releases/download/v0.0.4/kmval_0.0.4_linux_amd64.tar.gz"
+    sha256 "8c7ddd1777c0393012186ecb432e9351c8d2b19a37ce99e436dd1538ec8adfe3"
   end
   
   depends_on "yq"
