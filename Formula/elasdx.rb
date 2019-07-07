@@ -6,10 +6,10 @@ class Elasdx < Formula
 
   if OS.mac?
     url "https://github.com/LGUG2Z/elasdx/releases/download/v0.0.1/elasdx_0.0.1_darwin_amd64.tar.gz"
-    sha256 "f15f0578051798c21ae868a51fd2a2b2970533af4f5d102b6d162355ed121643"
+    sha256 "60455c20198fa7ea2b42b0b2ad1b5f17c6d27627fd0e5ce5d9710658353743af"
   elsif OS.linux?
     url "https://github.com/LGUG2Z/elasdx/releases/download/v0.0.1/elasdx_0.0.1_linux_amd64.tar.gz"
-    sha256 "f34030b5136fae661bb69b7b80f54397ef5085f8d5844fedcac9902f5a14c122"
+    sha256 "d7f0a695ad0ff3b93cb91f9f96e2f800157f1c775654bbd8880f68b366b8f7d4"
   end
 
   def install
