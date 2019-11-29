@@ -2,14 +2,17 @@
 class Elasdx < Formula
   desc "An ElasticSearch index template updating, reindexing and cleanup tool"
   homepage "https://github.com/LGUG2Z/elasdx"
-  version "0.0.3"
+  version "0.0.4"
+  bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/LGUG2Z/elasdx/releases/download/v0.0.3/elasdx_0.0.3_darwin_amd64.tar.gz"
-    sha256 "1ba7fe8c336ced1a7aeab9374c8b34964bc4961ac0fba873c66d98126ed40e36"
+    url "https://github.com/LGUG2Z/elasdx/releases/download/v0.0.4/elasdx_0.0.4_darwin_amd64.tar.gz"
+    sha256 "1bed78b9ab44923d8b519498bb984cd7051a8874f2855fe19b0ff7b25960b48c"
   elsif OS.linux?
-    url "https://github.com/LGUG2Z/elasdx/releases/download/v0.0.3/elasdx_0.0.3_linux_amd64.tar.gz"
-    sha256 "754516cf205cb278d748c4fe5906e508be4893c945024a15e3f0f58689cbd12b"
+    if Hardware::CPU.intel?
+      url "https://github.com/LGUG2Z/elasdx/releases/download/v0.0.4/elasdx_0.0.4_linux_amd64.tar.gz"
+      sha256 "117647b810763ad5a2a9e0eb33ba91bf519369613307af252e2621cd0c3ad95c"
+    end
   end
 
   def install
