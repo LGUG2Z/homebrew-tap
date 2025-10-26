@@ -4,7 +4,7 @@ class KomorebiForMacNightly < Formula
   version "nightly"
   license "Komorebi License 2.0.0"
 
-  url "https://api.github.com/repos/KomoCorp/komorebi-for-mac/releases/assets/308949331",
+  url "https://api.github.com/repos/KomoCorp/komorebi-for-mac/releases/assets/308949887",
       headers: [
         "Accept: application/octet-stream",
         "X-GitHub-Api-Version: 2022-11-28",
