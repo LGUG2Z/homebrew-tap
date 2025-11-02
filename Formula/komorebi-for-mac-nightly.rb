@@ -1,7 +1,7 @@
 class KomorebiForMacNightly < Formula
   desc "Tiling window manager for macOS (nightly build)"
   homepage "https://github.com/KomoCorp/komorebi-for-mac"
-  url "https://api.github.com/repos/KomoCorp/komorebi-for-mac/releases/assets/311181597",
+  url "https://api.github.com/repos/KomoCorp/komorebi-for-mac/releases/assets/311479104",
       headers: [
         "Accept: application/octet-stream",
         "X-GitHub-Api-Version: 2022-11-28",
