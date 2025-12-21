@@ -1,14 +1,14 @@
 class KomorebiForMacNightly < Formula
   desc "Tiling window manager for macOS (nightly build)"
   homepage "https://github.com/KomoCorp/komorebi-for-mac"
-  url "https://api.github.com/repos/KomoCorp/komorebi-for-mac/releases/assets/329213464",
+  url "https://api.github.com/repos/KomoCorp/komorebi-for-mac/releases/assets/331225314",
       headers: [
         "Accept: application/octet-stream",
         "X-GitHub-Api-Version: 2022-11-28",
         "Authorization: bearer #{ENV.fetch("HOMEBREW_GITHUB_API_TOKEN")}",
       ]
-  version "0.1.0-nightly-2025-12-15-20:55:11"
-  sha256 "b30ebb4a8c4274b00a974fda60741281ab79387f9c14e78136d714a8a28a0171"
+  version "0.1.0-nightly-2025-12-20-18:35:51"
+  sha256 "f05f7f19826d06647c5a1acd67fe32968273fd2805ebe49bbde157ab648ce11f"
   license "Komorebi License 2.0.0"
 
   def install
